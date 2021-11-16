@@ -37,7 +37,7 @@ class Soundoutput extends Component {
     return (
       <div className="soundinput">
         <div className="soundinputbuttoncontainer" >
-          <button className="button-64" role="button" onClick={this.toggleMicrophone}><span class="text">{this.state.audio ? 'STOP' : 'RECORD'}</span></button>
+          <button className="button-81" role="button" onClick={this.toggleMicrophone}><span class="text">{this.state.audio ? 'STOP' : 'RECORD'}</span></button>
         </div>
         <div className = "soundgraph">{this.state.audio ? <AudioAnalyser audio={this.state.audio} /> : ''}</div>
       </div>

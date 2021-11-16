@@ -40,7 +40,7 @@ function App() {
 
   return (
     <>
-      {/* <MyTimer expiryTimestamp={time} /> */}
+      <MyTimer expiryTimestamp={time} />
       <div className="App">
         <Sketch setup={setup} draw={draw} className="App" />
       </div>
