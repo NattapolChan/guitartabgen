@@ -18,6 +18,7 @@ class Soundoutput extends Component {
   }
 
   toggleMicrophone() {
+    this.state.audio == null ? this.props.passToParent(true) : this.props.passToParent(false);
     if (this.state.audio) {
       this.stopMicrophone();
     } else {

@@ -1,0 +1,22 @@
+.handleinputfile{
+    position: fixed;
+    top:10;
+    left:30vmin;
+    width: 100px;
+    background-color: rgb(149, 0, 255);
+    z-index: 1;
+}
+
+.fileinputcontainer {
+    position: fixed;
+    top:10;
+    left:30vmin;
+    width: 200px;
+    z-index: 10;
+    background-color: brown;
+}
+/* 
+#input{
+    width: 100px;
+    height: 100px;
+} */
